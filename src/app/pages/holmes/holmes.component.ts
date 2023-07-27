@@ -7,11 +7,11 @@ import { Component, HostListener } from '@angular/core';
 })
 export class HolmesComponent {
   home() {
-    window.open('/home', '_self');
+    window.open('/siteLanding', '_self');
   }
 
   @HostListener('window:scroll') onScroll(e: Event): void {
     console.log('Scroll');
-    window.open('/home', '_self');
+    window.open('/siteLanding', '_self');
   }
 }

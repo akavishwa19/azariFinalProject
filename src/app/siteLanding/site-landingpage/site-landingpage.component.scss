@@ -468,6 +468,7 @@ figcaption img {
   display: flex;
   flex-direction: column;
   gap: 3.5rem;
+  padding-top: 11%;
 }
 
 .informationSlide-ac {
@@ -513,6 +514,8 @@ figcaption img {
 .endButtons-ac {
   display: flex;
   gap: 10px;
+  justify-content: center;
+  width: 86.5%;
 }
 
 .left-ac {
