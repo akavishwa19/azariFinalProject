@@ -3,12 +3,16 @@
 
 .greyBg {
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 0px !important;
   background: linear-gradient(5deg, #bebebe 0%, #f1f1f1 20%, #ffffff 50%);
 }
 
 b {
   color: #f66542;
+}
+
+.joinImage {
+  padding-top: 53px;
 }
 
 .orangePara {
