@@ -1,0 +1,72 @@
+.list-main-wrap-header.anim_clw {
+    position: sticky !important;
+    top: 0px !important;
+    left: 0;
+    width: 850px;
+    z-index: 20;
+}
+
+.col-list-wrap.anim_clw {
+    padding-top: 0px !important;
+}
+
+.listing-hero-section .list-single-header_bottom {
+    margin-bottom: 0px !important;
+    padding: 25px 0 15px;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.container1 {
+    max-width: 1224px;
+
+    margin-left: 10px !important;
+    position: relative;
+    z-index: 5;
+}
+
+.listing-hero-section .list-single-header-item h1 {
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+}
+
+.list-single-header-item {
+    padding: 10px 0 0px;
+}
+
+.show-hidden-sb {
+    float: left;
+    background: #425998;
+    color: #fff;
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 2px;
+    padding: 0 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    top: 2px;
+}
+
+#wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 25;
+    padding-top: 0px !important;
+}
+
+.listing-hero-section {
+    padding: 330px 0 0;
+}
+
+.header-search-input .nice-select {
+    background: rgba(255, 255, 255, 0.11);
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    color: #425998;
+    border-radius: 4px;
+    font-weight: 400;
+}

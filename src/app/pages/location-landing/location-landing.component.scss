@@ -1,0 +1,613 @@
+// @import 'https://fonts.googleapis.com/css?family=Montserrat';
+// @import 'https://fonts.googleapis.com/css?family=Oswald';
+// @import 'https://fonts.googleapis.com/css?family=Open Sans';
+// @import 'https://fonts.googleapis.com/css?family=Raleway';
+// @import 'https://fonts.googleapis.com/css?family=Comfortaa';
+// @import 'https://fonts.googleapis.com/css?family=Quicksand';
+// @import 'https://fonts.googleapis.com/css?family=Roboto';
+// @import 'https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap';
+
+.leftImage {
+  width: 103.2%;
+  height: 600px;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-image: url("/assets/autumn-goodman-242825-unsplash-1920x982.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rightSection {
+  margin: 0 !important;
+  padding-top: 40px;
+  padding-left: 0 !important;
+  width: 100%;
+  height: 600px;
+  background-color: black;
+}
+
+.mainSectionRight {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.gamingButton {
+  font-size: 10px;
+  font-family: Montserrat;
+  background-color: #4135bf;
+  color: white;
+  border: none;
+  padding: 4px 15px 4px !important;
+  float: left;
+  letter-spacing: 0.2em;
+}
+
+.heading {
+  padding-top: 30px;
+  font-size: 45px;
+  font-family: Oswald;
+  color: #ffffff;
+  text-align: left;
+}
+
+.iconsWithPost {
+  display: flex;
+  gap: 1.1rem;
+}
+
+.white {
+  color: #ffffff;
+  padding-right: 10px;
+  font-size: 10px;
+}
+
+.iconinfo {
+  font-family: Montserrat;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.mattus {
+  padding-top: 15px;
+  color: #bbb;
+  line-height: 1.85;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 300;
+  width: 80%;
+  font-family: Open Sans;
+}
+
+.readMore {
+  font-size: 10px;
+  font-family: Montserrat;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  padding: 12px 30px;
+  float: left;
+  margin-top: 30px;
+}
+
+.trendingTab {
+  width: 100%;
+  height: 90px;
+  background-color: #ffffff;
+  padding-top: 35px;
+}
+
+.contentHolder1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconic {
+  background-color: #da0081;
+  color: #ffffff;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.infoPara {
+  padding-left: 20px;
+  font-size: 16px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.circle2 {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #a1a1a1;
+  border-radius: 50%;
+  color: #a1a1a1;
+  margin-top: 5px;
+}
+
+.circle2:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+.mobile-para {
+  font-size: 16px;
+  padding: 5px;
+  line-height: 0.3;
+}
+
+.mobile {
+  padding: 20px;
+}
+
+.download {
+  padding: 20px;
+}
+
+.question-box {
+  background-color: gray;
+  border-radius: 40px;
+}
+
+.question-heading {
+  color: white;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.question-content {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.box-common {
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.elementor-1151 .elementor-element.elementor-element-fd74a8a .item-btn {
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-wrap .item-btn {
+  gap: 12px;
+}
+
+.item-btn {
+  font-weight: 600;
+  line-height: 21px;
+  padding: 15px 28px;
+  color: #fff;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  background-color: #ff3c48;
+}
+
+.question-button {
+  padding: 30px;
+  margin-left: 30%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Outfit");
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.mainBlock {
+  font-family: "Outfit";
+}
+
+.topHeading {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Outfit";
+}
+
+.mainGrid {
+  display: flex;
+  width: 100%;
+  height: 41vh;
+}
+
+.left {
+  width: 29.5%;
+  height: 41vh;
+  margin: 1rem;
+  border: 1px solid #ededed;
+  border-radius: 6px;
+}
+
+.centre {
+  width: 29.5%;
+  height: 41vh;
+  margin: 1rem;
+}
+
+.right {
+  width: 29.5%;
+  height: 41vh;
+  margin: 1rem;
+}
+
+.nameMain {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.listingValue {
+  font-size: 16px;
+  color: #646464;
+}
+
+.circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  display: flex;
+}
+
+.centering {
+  margin: auto;
+  font-size: 15px;
+  color: #646464;
+}
+
+.imagecontainer {
+  padding: 15px;
+}
+
+.displayName {
+  padding: 10px 15px;
+}
+
+.repeater {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extremeLeft {
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+}
+
+.extremeRight {
+  align-self: center;
+}
+
+.left:hover {
+  .centering {
+    color: #ffffff;
+  }
+
+  .circle {
+    background-color: #ff3c48;
+  }
+
+  .nameMain {
+    color: #ff3c48;
+  }
+}
+
+.repeater:hover {
+  .centering {
+    color: #ffffff;
+  }
+
+  .circle {
+    background-color: #ff3c48;
+  }
+
+  .nameMain {
+    color: #ff3c48;
+  }
+}
+
+.additionalButtons {
+  display: flex;
+  margin-left: 15px;
+}
+
+.button2 {
+  display: block;
+  padding: 9px 18px;
+  margin: 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+.button2:hover {
+  background-color: #ff3c48;
+  color: white;
+}
+
+.counter {
+  background-image: url("/assets/finalbg.jpg");
+  opacity: 0.8;
+  width: 100%;
+  height: 30vh;
+}
+
+.counterContainer {
+  padding: 4rem 0;
+}
+
+.counterBlock {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.up {
+  font-size: 44px;
+  color: white;
+  font-weight: 600;
+}
+
+.down {
+  font-size: 13px;
+  color: white;
+  font-weight: 600;
+}
+
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.box-searchIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.first-searchIcon {
+  width: 90px;
+  height: 90px;
+  border: none;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3ac0ff;
+}
+
+.first2-searchIcon {
+  width: 90px;
+  height: 90px;
+  border: none;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4081;
+}
+
+.first3-searchIcon {
+  width: 90px;
+  height: 90px;
+  border: none;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4c837;
+}
+
+.first4-searchIcon {
+  width: 90px;
+  height: 90px;
+  border: none;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #77df40;
+}
+
+.expand1-searchIcon {
+  font-size: 40px;
+}
+
+.expand2-searchIcon {
+  font-size: 40px;
+}
+
+.expand3-searchIcon {
+  font-size: 40px;
+}
+
+.expand4-searchIcon {
+  font-size: 40px;
+}
+
+.first-searchIcon:hover {
+  background-color: #666666;
+  border: 1.5px solid white;
+  color: #ffffff;
+}
+
+.first2-searchIcon:hover {
+  background-color: #666666;
+  border: 1.5px solid white;
+  color: #ffffff;
+}
+
+.first3-searchIcon:hover {
+  background-color: #666666;
+  border: 1.5px solid white;
+  color: #ffffff;
+}
+
+.first4-searchIcon:hover {
+  background-color: #666666;
+  border: 1.5px solid white;
+  color: #ffffff;
+}
+
+figcaption {
+  display: flex;
+  padding-top: 5px;
+  margin: 0 -2.5px;
+  justify-content: center;
+}
+
+figcaption img {
+  width: 66px !important;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.firstHead {
+  font-size: 35px;
+  font-family: Comfortaa;
+  color: #333;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.secondHead {
+  font-size: 16px;
+  color: #797979;
+  font-weight: 400;
+  font-family: Quicksand;
+  padding-bottom: 12px;
+}
+
+.oneOne {
+  width: 100%;
+  height: 41vh;
+  margin: 10px 10px 0 10px;
+  border: none;
+  border-radius: 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 1.89) 0%, rgba(0, 0, 0, 0) 100%),
+    url("/assets/tour-2-570x455.jpg");
+}
+
+.twoOne {
+  width: 50%;
+  margin: 10px 0 10px 15px;
+  height: 20vh;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 1.89) 0%, rgba(0, 0, 0, 0) 100%),
+    url("/assets/tour-2-570x455.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.twoTwo {
+  width: 100%;
+  margin: 10px;
+  height: 20vh;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 1.89) 0%, rgba(0, 0, 0, 0) 100%),
+    url("/assets/tour-2-570x455.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.insideContent {
+  padding-top: 55%;
+}
+
+.insideContent2 {
+  padding-top: 45%;
+}
+
+.tours {
+  color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.secondText2 {
+  color: #ffffff;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  display: none;
+}
+
+.oneOne:hover {
+  .tours {
+    transform: translateY(-25px);
+  }
+
+  .secondText2 {
+    display: block;
+    transform: translateY(-20px);
+  }
+}
+
+.lastSection {
+  text-align: left;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.littleHead {
+  font-size: 15px;
+  font-weight: 700;
+  color: #02a95c;
+  font-family: Roboto;
+}
+
+.bgTextGrey {
+  font-family: Shadows Into Light;
+  font-size: 60px;
+  font-weight: 400;
+  opacity: 0.1;
+}
+
+.textBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -35px;
+  margin-left: 4px;
+  z-index: -1;
+}
+
+.statement {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: Roboto;
+  text-align: left;
+}
+
+.brandSwiper {
+  padding-top: 80px;
+}
+
+.blackOnHover {
+  opacity: 0.3;
+  transition: transform 0.6s ease;
+}
+
+.blackOnHover:hover {
+  opacity: 1;
+  transform: scale(0.8);
+}

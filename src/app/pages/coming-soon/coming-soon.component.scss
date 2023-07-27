@@ -1,0 +1,481 @@
+.main-signin-wrapper {
+  padding-top: 7rem;
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-card-signin {
+  box-shadow: 6px 11px 41px -28px #796eb1;
+  -webkit-box-shadow: 6px 11px 41px -28px #796eb1;
+}
+.text-muted {
+  color: #7987a1 !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline-end: -0.75rem;
+  margin-inline-start: -0.75rem;
+}
+.wd-100p {
+  width: 100%;
+}
+.tx-30 {
+  font-size: 30px;
+  font-weight: 600 !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2,
+.h2 {
+  font-size: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-block-end: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.clock-presenter{
+  background:  #9853af !important;
+
+}
+.row {
+  display: flex !important;
+  flex-wrap: wrap;
+  margin-inline-end: -0.75rem;
+  margin-inline-start: -0.75rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0.5rem;
+}
+.p-5 {
+  padding: 3rem !important;
+}
+.main-card-signin {
+
+  display: block;
+  margin-top: 20vh;
+  justify-content: space-between;
+  background-color: #fff;
+  position: relative;
+
+
+  box-shadow: 6px 11px 41px -28px #796eb1;
+  -webkit-box-shadow: 6px 11px 41px -28px #796eb1;
+}
+#count-down {
+  width: auto;
+  position: relative;
+  text-align: center;
+  display: flex;
+
+
+}
+
+#count-down .clock-presenter {
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.btn.btn-icon {
+  border: 1px solid rgb(221, 230, 241);
+  text-align: center;
+  padding: 0;
+  color: black !important;
+  background-color: #FFFFFF;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 0 5px;
+  border-radius: 3px;
+  height: 33px;
+}
+
+.btn:hover {
+
+  background-color: #b6bfd1;
+  transition: none !important;
+
+}
+.btn-icon {
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 0.5rem;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .03em;
+  font-size: .8125rem;
+  min-width: 2.375rem;
+}
+.btn-inner--icon{
+  height: 50px;
+  width: 100%;
+}
+#count-down .clock-presenter .digit {
+  margin-block-start: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 60px;
+  height: 60px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  cursor: default;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.mx-auto {
+  margin-inline-start: auto !important;
+
+}
+
+
+#count-down .clock-presenter::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(45deg,var(--primary-bg-color),#9853af);
+  inset-inline-start: 0;
+  top: 0;
+  bottom: 0;
+  inset-inline-end: 0;
+  display: block;
+  border-radius: 3px;
+}
+
+#count-down .clock-presenter {
+  height: 80px;
+  padding: 0;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  float: var(--float-left);
+  margin: 0 20px 0 0 !important;
+  border-radius: 3px;
+  background-size: cover;
+  position: relative;
+}
+.main-error-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+@media (min-width: 1276px) {
+
+  .landing-page.horizontalmenu .hor-header .container,
+  .landing-page.horizontalmenu .horizontalmenu .container,
+  .landing-page.horizontalmenu .main-content.hor-content .container,
+  .landing-page.horizontalmenu .main-demo .container {
+    max-width: 1140px !important
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1275.98px) {
+
+  .landing-page.horizontalmenu .hor-header .container,
+  .landing-page.horizontalmenu .horizontalmenu .container,
+  .landing-page.horizontalmenu .main-content.hor-content .container {
+    max-width: 960px !important
+  }
+
+  .landing-page.horizontalmenu .side-menu>li>a {
+    margin: -3px 0 !important;
+    color: #282f53;
+  }
+
+  .landing-page.horizontalmenu .side-menu .slide .side-menu__item.active {
+    font-weight: 500
+  }
+
+  .landing-page.horizontalmenu .fixed-header {
+    position: relative
+  }
+}
+
+.landing-page .navbar .navbar-brand {
+  padding: 8px 15px
+}
+
+.landing-page.horizontalmenu .slide {
+  margin: 0
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .landing-page .landing-top-header .landing-app-sidebar .container {
+    max-width: 960px !important
+  }
+}
+
+@media (min-width: 768px) {
+  .landing-page .hor-content .container {
+    max-width: 720px !important
+  }
+}
+
+@media (min-width: 576px) {
+  .landing-page .hor-content .container {
+    max-width: 540px
+  }
+}
+
+@media (max-width: 575px) {
+  .landing-page .slick-next {
+    inset-inline-end: -10px !important
+  }
+
+  .landing-page .demo-screen-headline h1 {
+    font-size: 35px
+  }
+
+  .landing-page .demo-footer .container {
+    margin-inline-start: 10px;
+    margin-inline-end: 10px
+  }
+}
+
+@media (min-width: 576px) {
+  .landing-page .demo-footer .container {
+    max-width: 540px
+  }
+}
+
+@media (min-width: 768px) {
+  .landing-page .demo-footer .container {
+    max-width: 720px !important
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1275.98px) {
+  .landing-page .demo-footer .container {
+    max-width: 960px !important
+  }
+}
+
+@media (min-width: 1276px) {
+  .landing-page .demo-footer .container {
+    max-width: 1140px !important
+  }
+}
+
+@media (max-width: 991px) {
+  .landing-page .navresponsive-toggler {
+    padding: 3px
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+    border-radius: 0
+  }
+
+  to {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-duration: 1s;
+  animation-delay: 1s
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-20px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate(20px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+
+@keyframes run {
+  0% {
+    top: -50%
+  }
+
+  to {
+    top: 110%
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+    border-radius: 0
+  }
+
+  to {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 3px
+  }
+}
+
+.login-img {
+  background-image: url(/assets/images/bg/404background.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-table;
+}
+
+.tx-20 {
+  font-size: 20px;
+}
+
+
+
+.square-box div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: 3px solid rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.square-box div:nth-child(1) {
+  inset-block-start: 12%;
+  inset-inline-start: 42%;
+  animation: animate 28s linear infinite;
+}
+
+.square-box div:nth-child(2) {
+  inset-block-start: 70%;
+  inset-inline-start: 50%;
+  animation: animate 20s linear infinite;
+}
+
+.square-box div:nth-child(11) {
+  inset-block-start: 50%;
+  inset-inline-start: 30%;
+  animation: animate 18s linear infinite;
+}
+
+.square-box div:nth-child(3) {
+  inset-block-start: 17%;
+  inset-inline-start: 6%;
+  animation: animate 30s linear infinite;
+}
+
+.square-box div:nth-child(4) {
+  inset-block-start: 20%;
+  inset-inline-start: 60%;
+  animation: animate 25s linear infinite;
+}
+
+.square-box div:nth-child(5) {
+  inset-block-start: 88%;
+  inset-inline-start: 10%;
+  animation: animate 10s linear infinite;
+}
+
+.square-box div:nth-child(6) {
+  inset-block-start: 80%;
+  inset-inline-start: 70%;
+  animation: animate 16s linear infinite;
+}
+
+.square-box div:nth-child(7) {
+  inset-block-start: 60%;
+  inset-inline-start: 80%;
+  animation: animate 25s linear infinite;
+}
+
+.square-box div:nth-child(8) {
+  inset-block-start: 32%;
+  inset-inline-start: 25%;
+  animation: animate 17s linear infinite;
+}
+
+.square-box div:nth-child(9) {
+  inset-block-start: 20%;
+  inset-inline-start: 80%;
+  animation: animate 21s linear infinite;
+}
+
+.square-box div:nth-child(10) {
+  inset-block-start: 40%;
+  inset-inline-start: 72%;
+  animation: animate 13s linear infinite;
+}
+
+
+
+

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit');
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.mainBlock{
+  font-family: 'Outfit';
+}
+.topHeading{
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'Outfit';
+}
+.mainGrid{
+  display: flex;
+  width: 100%;
+  height: 41vh;
+}
+.left{
+  width: 29.5%;
+  height: 41vh;
+  margin: 1rem;
+  border: 1px solid #ededed;
+  border-radius: 6px;
+}
+.centre{
+  width: 29.5%;
+  height: 41vh;
+  margin: 1rem;
+
+}
+.right{
+  width: 29.5%;
+  height: 41vh;
+  margin: 1rem;
+
+}
+.nameMain{
+  font-size: 20px;
+  font-weight: 500;
+}
+.listingValue{
+  font-size: 16px;
+  color: #646464;
+}
+.circle{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  display: flex;
+}
+.centering{
+  margin: auto;
+  font-size: 15px;
+  color: #646464;
+}
+.imagecontainer{
+  padding: 15px;
+}
+.displayName{
+  padding: 10px 15px;
+}
+.repeater{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.extremeLeft{
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+}
+.extremeRight{
+  align-self: center;
+}
+
+.left:hover{
+  .centering{
+    color: #FFFFFF;
+  }
+  .circle{
+    background-color: #ff3c48 ;
+  }
+  .nameMain{
+    color: #ff3c48;
+  }
+}
+
+.repeater:hover{
+  .centering{
+    color: #FFFFFF;
+  }
+  .circle{
+    background-color: #ff3c48 ;
+  }
+  .nameMain{
+    color: #ff3c48;
+  }
+}
+.additionalButtons{
+  display: flex;
+  margin-left: 15px;
+}
+.button2{
+  display: block;
+  padding: 9px 18px;
+  margin: 15px;
+  border:none;
+  border-radius:6px ;
+}
+.button2:hover{
+  background-color:#ff3c48 ;
+  color: white;
+}
+.counter{
+  background-image: url("/assets/finalbg.jpg");
+  opacity: 0.5;
+  width: 100%;
+  height: 30vh;
+
+}
+.counterContainer{
+  padding:4rem 0;
+}
+.counterBlock{
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-around;
+}
+.up{
+  font-size: 44px;
+  color:white;
+  font-weight: 600;
+}
+.down{
+  font-size: 13px;
+  color:white;
+  font-weight: 600;
+}

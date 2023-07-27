@@ -1,0 +1,249 @@
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.box-searchIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.first-searchIcon {
+    width: 90px;
+    height: 90px;
+    border: none;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3ac0ff;
+}
+
+.first2-searchIcon {
+    width: 90px;
+    height: 90px;
+    border: none;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4081;
+}
+
+.first3-searchIcon {
+    width: 90px;
+    height: 90px;
+    border: none;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4c837;
+}
+
+.first4-searchIcon {
+    width: 90px;
+    height: 90px;
+    border: none;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #77df40;
+}
+
+.expand1-searchIcon {
+    font-size: 40px;
+}
+
+.expand2-searchIcon {
+    font-size: 40px;
+}
+
+.expand3-searchIcon {
+    font-size: 40px;
+}
+
+.expand4-searchIcon {
+    font-size: 40px;
+}
+
+.first-searchIcon:hover {
+    background-color: #666666;
+    border: 1.5px solid white;
+    color: #ffffff;
+}
+
+.first2-searchIcon:hover {
+    background-color: #666666;
+    border: 1.5px solid white;
+    color: #ffffff;
+}
+
+.first3-searchIcon:hover {
+    background-color: #666666;
+    border: 1.5px solid white;
+    color: #ffffff;
+}
+
+.first4-searchIcon:hover {
+    background-color: #666666;
+    border: 1.5px solid white;
+    color: #ffffff;
+}
+
+figcaption {
+    display: flex;
+    padding-top: 5px;
+    margin: 0 -2.5px;
+    justify-content: center;
+}
+
+figcaption img {
+    width: 66px !important;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.promotion-banner {
+    padding: 40px 0;
+}
+
+.fal,
+.far {
+    margin-top: 10px !important;
+    font-family: Font Awesome\ 5 Pro;
+}
+
+.review-fc {
+    padding-left: 12px;
+    margin-top: 8px !important;
+}
+
+.hrtag {
+    display: flex;
+}
+
+@media screen and (max-width: 375px) {
+    .heading-ideas {
+        font-size: 3rem;
+        text-align: center;
+        position: relative;
+    }
+
+    .secondText {
+        font-size: 25px;
+        padding: 5px;
+
+    }
+
+    .button-handy {
+        background-color: white;
+        width: 90%;
+        display: block;
+        margin: 12px;
+        padding: 20px;
+        text-align: left;
+        cursor: pointer;
+        color: #7d93b2;
+    }
+
+    .head-handy {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    .topPic-offerBanner {
+        margin-left: 6rem;
+        padding-bottom: 1rem;
+    }
+
+    .counterBar {
+        display: block;
+        margin: auto;
+        width: 80%;
+        color: red;
+        background-color: white;
+        height: 7rem;
+        margin-top: -6rem;
+        border-top: 10px solid #fc3c3c;
+    }
+
+    section {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .image-offerBanner {
+        margin-top: 230px;
+        margin-left: 50px;
+        width: 110%;
+        max-height: 350px;
+    }
+
+    .toe-handy {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .mainBlockHandy {
+        display: flex;
+        width: 100%;
+        background-color: #f4f6f9;
+        padding: 0px;
+    }
+
+    .finalText {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .one {
+        height: 50%;
+        margin-top: 10px;
+    }
+
+    .contents-category {
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: left;
+        line-height: 1.74;
+        padding: 30px;
+        font-size: 15px;
+    }
+
+    .heading-category {
+        font-size: 28px;
+        font-family: var(--h1FontFamily, Poppins);
+        color: #262626;
+        font-size: 35px;
+        margin-bottom: 15px;
+        text-align: left;
+        padding-top: 80px;
+        padding-left: 30px;
+    }
+
+    .name {
+        color: #797f89;
+        text-align: center;
+        line-height: 0;
+        font-size: 9px;
+    }
+
+    .value {
+        color: black;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 10%;
+    }
+}

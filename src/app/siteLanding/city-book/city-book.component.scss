@@ -1,0 +1,197 @@
+.image1-img {
+    height: 120px;
+    width: 120px;
+
+    z-index: 1;
+
+    border-radius: 100%;
+
+}
+
+.full-bg ::before {
+
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    background-image: url(/assets/shape.png);
+    background-repeat: repeat;
+    background-color: #4DB7FE;
+
+}
+
+.imagediv {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.logo-div {
+
+    padding: 15px;
+}
+
+.logo-city {
+    padding: 15px;
+
+    position: absolute;
+    right: 30%;
+    border: gray;
+    width: 180px;
+    padding: 15px 0;
+    background: #fff;
+    z-index: 10;
+    top: 13%;
+    left: 44%;
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #566985;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image1 {
+    top: 12%;
+    z-index: 2;
+    left: 27%;
+    position: absolute;
+}
+
+.images {
+    position: relative;
+
+    overflow: hidden;
+    margin: 0 !important;
+}
+
+.img3 {
+
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    -webkit-box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 0px 13px rgba(255, 255, 255, 0.2);
+
+}
+
+.image3 {
+
+    position: relative;
+    z-index: 3;
+}
+
+.img5 {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+.image5 {
+
+    top: 40%;
+    z-index: 5;
+    left: 59%;
+    position: absolute;
+    z-index: 5;
+}
+
+.img4 {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+.image4 {
+    bottom: 0% !important;
+    z-index: 1;
+    left: 38%;
+    position: absolute;
+
+}
+
+.img2 {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.image2 {
+    top: 53%;
+    z-index: 11;
+    left: 26%;
+    position: absolute;
+    animation: image2 4.15s infinite;
+    // -o-animation: image2 4.15s infinite;
+    -ms-animation: image2 4.15s infinite;
+
+    -moz-animation: image2 4.15s infinite;
+
+}
+
+@-webkit-keyframes image2 {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -50px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes image2 {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -50px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.city-heading {
+    margin-top: 17%;
+    font-size: 43px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.city-subheading {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 16px;
+    margin-top: 3%;
+
+
+}
+
+.button-sign {
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    border: gray;
+
+}
+
+.city-button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+}
