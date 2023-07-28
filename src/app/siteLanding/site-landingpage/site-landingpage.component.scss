@@ -618,3 +618,66 @@ figcaption img {
 .mt-5 {
   margin-top: 50px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+.spanHead{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.describingPara{
+  padding-top:10%;
+}
+.topBlueHead{
+  padding: 8px 15px;
+  width: 18%;
+  background-color: #537cd9;
+}
+.sectionTitle{
+  font-size: 36px;
+  text-align: left;
+  padding: 15px 0 8px 0;
+}
+.miniStatement{
+  font-size: 18px;
+  text-align: left;
+}
+.fullpercent{
+  width: 100%;
+  display: flex;
+}
+.repeatedBlock{
+  width: 75%;
+ border: 1px solid #f2f4f8;
+  margin: auto;
+  padding: 2rem;
+}
+.imageHolder-test{
+  width: 60px;
+  height: auto;
+
+}
+.top-test{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 0;
+}
+.emma{
+font-size: 16px;
+  font-weight: 800;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.post{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.explanationPara{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 29px;
+  color: #73818c;
+}
