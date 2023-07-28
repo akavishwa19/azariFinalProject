@@ -648,10 +648,12 @@ figcaption img {
   display: flex;
 }
 .repeatedBlock{
-  width: 75%;
+  width: 90%;
+  height: 40vh;
  border: 1px solid #f2f4f8;
   margin: auto;
   padding: 2rem;
+  margin-top: 70px !important;
 }
 .imageHolder-test{
   width: 60px;
@@ -680,4 +682,7 @@ font-size: 16px;
   font-family: 'Lexend Deca', sans-serif;
   line-height: 29px;
   color: #73818c;
+}
+.repeatedBlock:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 7px 7px 15px -7px;
 }
