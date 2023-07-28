@@ -41,4 +41,14 @@ export class SiteLandingpageComponent {
     // Add more options as needed
   ];
 
+
+  z=1;
+  cities(){
+    this.z=1;
+  }
+
+  pincodes(){
+    this.z=2;
+  }
+
 }

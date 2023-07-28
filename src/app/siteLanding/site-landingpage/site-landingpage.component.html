@@ -16,29 +16,20 @@
       <div class="intro-item fl-wrap">
         <span class="full-sepeartor"></span>
         <div class="bubbles">
-          <h1>B*Found | Find*X</h1>
+          <h1>MAKE YOUR MARK</h1>
         </div>
-        <h3>Find Anything Around You.</h3>
+        <h3>EXPERTS IN THE LOCAL MARKETS</h3>
       </div>
       <div class="main-search-input-tabs tabs-act fl-wrap">
         <ul class="tabs-menu change_bg no-list-style">
-          <li class="current"><a href="#tab-inpt1" data-bgtab="images/bg/hero/1.jpg"> Cities</a></li>
-          <li><a href="#tab-inpt2" data-bgtab="images/bg/hero/1.jpg"> Pincodes/Towns</a></li>
+          <li class="current"><a (click)="cities()"> Cities</a></li>
+          <li><a (click)="pincodes()"> Pincodes/Towns</a></li>
         </ul>
         <!--tabs -->
-        <div class="tabs-container fl-wrap">
+        <div *ngIf="z==2" class="tabs-container fl-wwrap">
           <!--tab -->
-          <div class="main-search-input fl-wrap">
-            <div class="main-search-input-item">
-              <select data-placeholder="Enter City" class="chosen-select no-radius">
-                <option>Select City</option>
-                <option>Chennai</option>
-                <option>Bengaluru</option>
-                <option>Delhi</option>
-                <option>Mumbai</option>
-              </select>
-            </div>
-            <div style="width: 10%" class="main-search-input-item mt-3">OR</div>
+          <div class="main-search-input fl-wwrap">
+
             <div class="main-search-input-item">
               <select data-placeholder="Enter Pincode" class="chosen-select no-radius">
                 <option>Select Pincode</option>
@@ -49,6 +40,25 @@
                 <option>500114</option>
               </select>
             </div>
+            <button onclick="window.location.href='listing.html'" class="main-search-button color2-bg">
+              Select
+              <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div *ngIf="z==1" tabs-container fl-wwrap>
+          <!--tab -->
+          <div class="main-search-input fl-wwrap">
+            <div class="main-search-input-item">
+              <select data-placeholder="Enter City" class="chosen-select no-radius">
+                <option>Select City</option>
+                <option>Chennai</option>
+                <option>Bengaluru</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+              </select>
+            </div>
+
             <button onclick="window.location.href='listing.html'" class="main-search-button color2-bg">
               Select
               <i class="fa fa-arrow-right"></i>
