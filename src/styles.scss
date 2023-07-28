@@ -6,6 +6,11 @@
   height: 120px !important;
 }
 
+#shadow-host-companion {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
 .circular-menu {
   position: fixed;
   bottom: 1em;
@@ -1037,7 +1042,7 @@ section- {
 .dashboard-message-time i,
 .pass-input-wrap span,
 .fuzone .fu-text i,
-.radio input[type="radio"]:checked + span:before,
+.radio input[type="radio"]:checked+span:before,
 .booking-list-message-text h4 span,
 .dashboard-message-text h4 a:hover,
 .chat-contacts-item .chat-contacts-item-text span,
@@ -1300,14 +1305,14 @@ div.datedropper.primary .pick-submit,
 
 /* Importing Bootstrap SCSS file. */
 
-.tab-content > .active {
+.tab-content>.active {
   display: block;
   background: white !important;
   padding: 20px !important;
   text-align: left !important;
 }
 
-.nav > .active {
+.nav>.active {
   border-right: 10px solid #2e3f6e;
   border-radius: 2px;
 }
