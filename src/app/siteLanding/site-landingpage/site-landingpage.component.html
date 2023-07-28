@@ -1,14 +1,25 @@
 <app-header></app-header>
 
 <section style="margin-top: 0; padding-top: 80px; padding-bottom: 0">
-  <section c style="padding: 0" class="full-section hero-section" data-scrollax-parent="true"
-    style="margin-top: 0; padding-top: 0">
+  <section
+    c
+    style="padding: 0"
+    class="full-section hero-section"
+    data-scrollax-parent="true"
+    style="margin-top: 0; padding-top: 0"
+  >
     <div class="bg-tabs-wrap">
-      <div class="bg-parallax-wrap" data-scrollax="properties: { translateY: '200px' }">
+      <div
+        class="bg-parallax-wrap"
+        data-scrollax="properties: { translateY: '200px' }"
+      >
         <video id="background-video" playsinline loop autoplay [muted]="true">
           <source src="/assets/video/vi.mp4" type="video/mp4" />
         </video>
-        <div class="bg bg_tabs" style="background: url('/assets/video/vi.mp4')"></div>
+        <div
+          class="bg bg_tabs"
+          style="background: url('/assets/video/vi.mp4')"
+        ></div>
         <div class="overlay op7"></div>
       </div>
     </div>
@@ -26,12 +37,14 @@
           <li><a (click)="pincodes()"> Pincodes/Towns</a></li>
         </ul>
         <!--tabs -->
-        <div *ngIf="z==2" class="tabs-container fl-wwrap">
+        <div *ngIf="z == 2" class="tabs-container fl-wwrap">
           <!--tab -->
-          <div class="main-search-input fl-wwrap">
-
+          <div>
             <div class="main-search-input-item">
-              <select data-placeholder="Enter Pincode" class="chosen-select no-radius">
+              <select
+                data-placeholder="Enter Pincode"
+                class="chosen-select no-radius"
+              >
                 <option>Select Pincode</option>
                 <option>600114</option>
                 <option>600112</option>
@@ -40,17 +53,23 @@
                 <option>500114</option>
               </select>
             </div>
-            <button onclick="window.location.href='listing.html'" class="main-search-button color2-bg">
+            <button
+              onclick="window.location.href='listing.html'"
+              class="main-search-button color2-bg"
+            >
               Select
               <i class="fa fa-arrow-right"></i>
             </button>
           </div>
         </div>
-        <div *ngIf="z==1" tabs-container fl-wwrap>
+        <div *ngIf="z == 1" class="tabs-container fl-wwrap">
           <!--tab -->
-          <div class="main-search-input fl-wwrap">
+          <div class="main-search-input">
             <div class="main-search-input-item">
-              <select data-placeholder="Enter City" class="chosen-select no-radius">
+              <select
+                data-placeholder="Enter City"
+                class="chosen-select no-radius"
+              >
                 <option>Select City</option>
                 <option>Chennai</option>
                 <option>Bengaluru</option>
@@ -59,7 +78,10 @@
               </select>
             </div>
 
-            <button onclick="window.location.href='listing.html'" class="main-search-button color2-bg">
+            <button
+              onclick="window.location.href='listing.html'"
+              class="main-search-button color2-bg"
+            >
               Select
               <i class="fa fa-arrow-right"></i>
             </button>
@@ -70,12 +92,20 @@
       <div style="padding: 200px"></div>
     </div>
     <div class="header-sec-link">
-      <a href="#sec1" class="custom-scroll-link"><i class="fal fa-angle-double-down"></i></a>
+      <a href="#sec1" class="custom-scroll-link"
+        ><i class="fal fa-angle-double-down"></i
+      ></a>
     </div>
   </section>
 </section>
 
-<section style="padding-top: 100px; padding-bottom: 50px !important; background-color: #f0fbfc">
+<section
+  style="
+    padding-top: 100px;
+    padding-bottom: 50px !important;
+    background-color: #f0fbfc;
+  "
+>
   <div class="container">
     <div class="whatsNewBlock">
       <div>
@@ -209,7 +239,10 @@
   </div>
 </section>
 
-<section style="padding-top: 40px; padding-bottom: 40px !important;" class="gray-bg hidden-section particles-wrapper">
+<section
+  style="padding-top: 40px; padding-bottom: 40px !important"
+  class="gray-bg hidden-section particles-wrapper"
+>
   <div class="container">
     <div class="section-title">
       <h2>Explore Latest Cities</h2>
@@ -290,12 +323,16 @@
         <!--  listing-item-grid end  -->
       </div>
     </div>
-    <a href="listing.html" class="btn dec_btn color2-bg">View All Cities<i style="padding-left: 20px"
-        class="fal fa-arrow-alt-right"></i></a>
+    <a href="listing.html" class="btn dec_btn color2-bg"
+      >View All Cities<i
+        style="padding-left: 20px"
+        class="fal fa-arrow-alt-right"
+      ></i
+    ></a>
   </div>
 </section>
 
-<section style="padding-bottom: 50px;padding-top: 40px !important;">
+<section style="padding-bottom: 50px; padding-top: 40px !important">
   <div class="container">
     <div class="mainBlock">
       <div class="heading">
@@ -308,7 +345,7 @@
             <img style="width: 100%; height: auto" src="assets/big.jpg" />
           </div>
           <div class="displayName">
-            <div style="float: left;text-align: left;">
+            <div style="float: left; text-align: left">
               <span class="nameMain">603103</span><br />
               <span class="listingValue">Kelambakkam</span>
               <p>0 listings</p>
@@ -319,17 +356,19 @@
           </div>
         </div>
         <div class="centre">
-          <div style="
+          <div
+            style="
               margin-bottom: 10px;
               border: 1px solid #ededed;
               border-radius: 6px;
-            ">
+            "
+          >
             <div class="repeater">
               <div class="extremeLeft">
                 <div>
                   <img class="kansasImage" src="assets/kansas.jpg" />
                 </div>
-                <div style="padding-top: 5px;text-align: left;">
+                <div style="padding-top: 5px; text-align: left">
                   <span class="nameMain">600096</span><br />
                   <span class="listingValue">Saidapet</span>
                   <p>0 listings</p>
@@ -343,16 +382,18 @@
             </div>
           </div>
 
-          <div style="
+          <div
+            style="
               margin-top: 33px !important;
               margin-bottom: 30px;
               border: 1px solid #ededed;
               border-radius: 6px;
-            ">
+            "
+          >
             <div class="repeater">
               <div class="extremeLeft">
                 <img class="kansasImage" src="assets/kansas.jpg" />
-                <div style="padding-top: 5px;text-align: left;">
+                <div style="padding-top: 5px; text-align: left">
                   <span class="nameMain">600013</span><br />
                   <span class="listingValue">Royapuram</span>
                   <p>0 listings</p>
@@ -365,16 +406,18 @@
               </div>
             </div>
           </div>
-          <div style="
+          <div
+            style="
               margin-top: 5px !important;
               margin-bottom: 33px;
               border: 1px solid #ededed;
               border-radius: 6px;
-            ">
+            "
+          >
             <div class="repeater">
               <div class="extremeLeft">
                 <img class="kansasImage" src="assets/kansas.jpg" />
-                <div style="padding-top: 5px;text-align: left;">
+                <div style="padding-top: 5px; text-align: left">
                   <span class="nameMain">600056</span><br />
                   <span class="listingValue">Poonamallee</span>
                   <p>0 listings</p>
@@ -389,16 +432,17 @@
           </div>
         </div>
         <div class="right">
-          <div style="
-
-                        margin-bottom: 30px;
-                        border: 1px solid #ededed;
-                        border-radius: 6px;
-                      ">
+          <div
+            style="
+              margin-bottom: 30px;
+              border: 1px solid #ededed;
+              border-radius: 6px;
+            "
+          >
             <div class="repeater">
               <div class="extremeLeft">
                 <img class="kansasImage" src="assets/kansas.jpg" />
-                <div style="padding-top: 5px;text-align: left;">
+                <div style="padding-top: 5px; text-align: left">
                   <span class="nameMain">600010</span><br />
                   <span class="listingValue">Kilpauk</span>
                   <p>0 listings</p>
@@ -412,16 +456,18 @@
             </div>
           </div>
 
-          <div style="
+          <div
+            style="
               margin-top: 33px !important;
               margin-bottom: 30px;
               border: 1px solid #ededed;
               border-radius: 6px;
-            ">
+            "
+          >
             <div class="repeater">
               <div class="extremeLeft">
                 <img class="kansasImage" src="assets/kansas.jpg" />
-                <div style="padding-top: 5px;text-align: left;">
+                <div style="padding-top: 5px; text-align: left">
                   <span class="nameMain">600014</span><br />
                   <span class="listingValue">Royapettah</span>
                   <p>0 listings</p>
@@ -434,16 +480,18 @@
               </div>
             </div>
           </div>
-          <div style="
+          <div
+            style="
               margin-top: 5px !important;
               margin-bottom: 33px;
               border: 1px solid #ededed;
               border-radius: 6px;
-            ">
+            "
+          >
             <div class="repeater">
               <div class="extremeLeft">
                 <img class="kansasImage" src="assets/kansas.jpg" />
-                <div style="padding-top: 5px;text-align: left;">
+                <div style="padding-top: 5px; text-align: left">
                   <span class="nameMain">600107</span><br />
                   <span class="listingValue">Koyambedu</span>
                   <p>0 listings</p>
@@ -462,13 +510,19 @@
 
     <div class="additionalButtons">
       <div>
-        <a href="#" class="btn color2-bg float-btn">view all pincodes / towns<i class="fal fa-chevron-right"></i></a>
+        <a href="#" class="btn color2-bg float-btn"
+          >view all pincodes / towns<i class="fal fa-chevron-right"></i
+        ></a>
       </div>
     </div>
   </div>
 </section>
 <section class="parallax-section small-par" data-scrollax-parent="true">
-  <div class="bg par-elem" data-bg="assets/finalbg.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+  <div
+    class="bg par-elem"
+    data-bg="assets/finalbg.jpg"
+    data-scrollax="properties: { translateY: '30%' }"
+  ></div>
   <div class="overlay1"></div>
   <div class="container">
     <div class="single-facts single-facts_2 fl-wrap">
@@ -532,7 +586,6 @@
         <div class="swiper-container">
           <div class="swiper-wrapper lightgallery">
             <div class="swiper-slide">
-
               <div class="row">
                 <div class="col-12 col-lg-4 col-sm-12">
                   <div class="single-slider-wrap">
@@ -541,12 +594,26 @@
                         <div class="swiper-wrapper lightgallery">
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                         </div>
@@ -556,13 +623,17 @@
                 </div>
                 <div class="col-12 col-lg-8 col-sm-12">
                   <div class="rightPart-ac">
-                    <div style=" position: relative">
-                      <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                    <div style="position: relative">
+                      <div
+                        class="listing-rating card-popup-rainingvis"
+                        data-starrating2="5"
+                      ></div>
                       <p style="padding-top: 25px" class="informationSlide-ac">
-                        “Xity platform is focused on local businesses and community and, most importantly, bringing the
-                        two together. So we built
-                        something different, something better. Xity is a local all-in-one platform that's open and truly
-                        works for everyone.“
+                        “Xity platform is focused on local businesses and
+                        community and, most importantly, bringing the two
+                        together. So we built something different, something
+                        better. Xity is a local all-in-one platform that's open
+                        and truly works for everyone.“
                       </p>
                     </div>
                     <div class="designation-ac">
@@ -572,10 +643,8 @@
                   </div>
                 </div>
               </div>
-
             </div>
             <div class="swiper-slide">
-
               <div class="row">
                 <div class="col-12 col-lg-4 col-sm-12">
                   <div class="single-slider-wrap">
@@ -584,12 +653,26 @@
                         <div class="swiper-wrapper lightgallery">
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                         </div>
@@ -599,15 +682,19 @@
                 </div>
                 <div class="col-12 col-lg-8 col-sm-12">
                   <div class="rightPart-ac">
-                    <div style=" position: relative">
-                      <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                    <div style="position: relative">
+                      <div
+                        class="listing-rating card-popup-rainingvis"
+                        data-starrating2="5"
+                      ></div>
                       <p style="padding-top: 25px" class="informationSlide-ac">
-                        “Xity directory service provides small, independent businesses an opportunity to reach a
-                        qualified, local consumer
-                        audience through enhanced business profiles, display advertising, videos and more. Get driving
-                        directions, reviews and
-                        ratings, phone numbers, addresses and more on xity. With Xity, any business can an eBusiness.
-                        “
+                        “Xity directory service provides small, independent
+                        businesses an opportunity to reach a qualified, local
+                        consumer audience through enhanced business profiles,
+                        display advertising, videos and more. Get driving
+                        directions, reviews and ratings, phone numbers,
+                        addresses and more on xity. With Xity, any business can
+                        an eBusiness. “
                       </p>
                     </div>
                     <div class="designation-ac">
@@ -617,10 +704,8 @@
                   </div>
                 </div>
               </div>
-
             </div>
             <div class="swiper-slide">
-
               <div class="row">
                 <div class="col-12 col-lg-4 col-sm-12">
                   <div class="single-slider-wrap">
@@ -629,12 +714,26 @@
                         <div class="swiper-wrapper lightgallery">
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                         </div>
@@ -644,15 +743,19 @@
                 </div>
                 <div class="col-12 col-lg-8 col-sm-12">
                   <div class="rightPart-ac">
-                    <div style=" position: relative">
-                      <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                    <div style="position: relative">
+                      <div
+                        class="listing-rating card-popup-rainingvis"
+                        data-starrating2="5"
+                      ></div>
                       <p style="padding-top: 25px" class="informationSlide-ac">
-                        “Xity marketplace service is an online marketplace that allows you to sell your goods or find
-                        them. Xity harnesses both
-                        existing and emerging technologies to redefine the retail experience. Be a part of the
-                        e-commerce revolution with
-                        logistics, hyperlocal deliveries, secure and seamless transactions and digital tools to fully
-                        manage your ecommerce“
+                        “Xity marketplace service is an online marketplace that
+                        allows you to sell your goods or find them. Xity
+                        harnesses both existing and emerging technologies to
+                        redefine the retail experience. Be a part of the
+                        e-commerce revolution with logistics, hyperlocal
+                        deliveries, secure and seamless transactions and digital
+                        tools to fully manage your ecommerce“
                       </p>
                     </div>
                     <div class="designation-ac">
@@ -662,7 +765,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
             <div class="swiper-slide">
               <div class="row">
@@ -673,12 +775,26 @@
                         <div class="swiper-wrapper lightgallery">
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                           <div class="swiper-slide">
                             <div class="imageContainer-ac">
-                              <img style="width: 100%; height: auto; padding-top: 30px" src="assets/girl-image.png" />
+                              <img
+                                style="
+                                  width: 100%;
+                                  height: auto;
+                                  padding-top: 30px;
+                                "
+                                src="assets/girl-image.png"
+                              />
                             </div>
                           </div>
                         </div>
@@ -688,24 +804,25 @@
                 </div>
                 <div class="col-12 col-lg-8 col-sm-12">
                   <div class="rightPart-ac">
-                    <div style=" position: relative">
-                      <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                    <div style="position: relative">
+                      <div
+                        class="listing-rating card-popup-rainingvis"
+                        data-starrating2="5"
+                      ></div>
                       <p style="padding-top: 25px" class="informationSlide-ac">
-                        “By bringing locals together, we can cultivate a better community where everyone has a locality
-                        they can rely on.
-                        Engaging and entertaining daily to receive trusted information, give and get help, get things
-                        done, and build real
-                        connections with those nearby. We believe connecting with others is a universal human need and
-                        to build stronger, more
-                        vibrant, and resilient localities“
+                        “By bringing locals together, we can cultivate a better
+                        community where everyone has a locality they can rely
+                        on. Engaging and entertaining daily to receive trusted
+                        information, give and get help, get things done, and
+                        build real connections with those nearby. We believe
+                        connecting with others is a universal human need and to
+                        build stronger, more vibrant, and resilient localities“
                       </p>
                     </div>
                     <div class="designation-ac">
-                      <p class="upper-ac">Community
-                      </p>
+                      <p class="upper-ac">Community</p>
                       <p class="lower-ac"></p>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -726,10 +843,12 @@
   </div>
 </section>
 
-
-
 <section class="parallax-section" data-scrollax-parent="true">
-  <div class="bg par-elem" data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+  <div
+    class="bg par-elem"
+    data-bg="images/bg/1.jpg"
+    data-scrollax="properties: { translateY: '30%' }"
+  ></div>
   <div class="overlay"></div>
 
   <div class="container">
@@ -741,8 +860,9 @@
         Our agency will lead you through the amazing digital world
       </h2>
     </div>
-    <a href="https://vimeo.com/70851162" class="promo-link big_prom image-popup"><i class="fal fa-play"></i><span>Promo
-        Video</span></a>
+    <a href="https://vimeo.com/70851162" class="promo-link big_prom image-popup"
+      ><i class="fal fa-play"></i><span>Promo Video</span></a
+    >
   </div>
 </section>
 <!--
@@ -759,9 +879,11 @@
         <div class="colomn-text pad-top-column-text fl-wrap">
           <div class="colomn-text-title">
             <h3>Our App Available Now</h3>
-            <p>Get the best at your location, all in one place.<br>
-              Beautifully designed and extremely intuitive to use.<br>
-              Live Local. Love Local</p>
+            <p>
+              Get the best at your location, all in one place.<br />
+              Beautifully designed and extremely intuitive to use.<br />
+              Live Local. Love Local
+            </p>
             <div class="mobile">
               <div class="download">
                 <p>Downloads</p>
@@ -776,9 +898,11 @@
                 <p style="text-align: center">0</p>
               </div>
             </div>
-            <a href="#" class="down-btn color3-bg"><i class="fab fa-apple"></i> Apple Store
+            <a href="#" class="down-btn color3-bg"
+              ><i class="fab fa-apple"></i> Apple Store
             </a>
-            <a href="#" class="down-btn color3-bg"><i class="fab fa-android"></i> Google Play
+            <a href="#" class="down-btn color3-bg"
+              ><i class="fab fa-android"></i> Google Play
             </a>
           </div>
         </div>
@@ -789,7 +913,10 @@
           <div class="images-collage-title color2-bg icdec">
             <img style="height: 10% !important" src="/assets/logo.png" alt="" />
           </div>
-          <div class="images-collage_icon green-bg" style="right: -20px; top: 120px">
+          <div
+            class="images-collage_icon green-bg"
+            style="right: -20px; top: 120px"
+          >
             <i class="fal fa-thumbs-up"></i>
           </div>
           <div class="collage-image-min cim_1">
@@ -808,23 +935,41 @@
   </div>
   <div class="gradient-bg-figure" style="right: -30px; top: 10px"></div>
   <div class="gradient-bg-figure" style="left: -20px; bottom: 30px"></div>
-  <div class="circle-wrap" style="left: 270px; top: 120px" data-scrollax="properties: { translateY: '-200px' }">
+  <div
+    class="circle-wrap"
+    style="left: 270px; top: 120px"
+    data-scrollax="properties: { translateY: '-200px' }"
+  >
     <div class="circle_bg-bal circle_bg-bal_small"></div>
   </div>
-  <div class="circle-wrap" style="right: 420px; bottom: -70px" data-scrollax="properties: { translateY: '150px' }">
+  <div
+    class="circle-wrap"
+    style="right: 420px; bottom: -70px"
+    data-scrollax="properties: { translateY: '150px' }"
+  >
     <div class="circle_bg-bal circle_bg-bal_big"></div>
   </div>
-  <div class="circle-wrap" style="left: 420px; top: -70px" data-scrollax="properties: { translateY: '100px' }">
+  <div
+    class="circle-wrap"
+    style="left: 420px; top: -70px"
+    data-scrollax="properties: { translateY: '100px' }"
+  >
     <div class="circle_bg-bal circle_bg-bal_big"></div>
   </div>
   <div class="circle-wrap" style="left: 40%; bottom: -70px">
     <div class="circle_bg-bal circle_bg-bal_middle"></div>
   </div>
   <div class="circle-wrap" style="right: 40%; top: -10px">
-    <div class="circle_bg-bal circle_bg-bal_versmall" data-scrollax="properties: { translateY: '-350px' }"></div>
+    <div
+      class="circle_bg-bal circle_bg-bal_versmall"
+      data-scrollax="properties: { translateY: '-350px' }"
+    ></div>
   </div>
   <div class="circle-wrap" style="right: 55%; top: 90px">
-    <div class="circle_bg-bal circle_bg-bal_versmall" data-scrollax="properties: { translateY: '-350px' }"></div>
+    <div
+      class="circle_bg-bal circle_bg-bal_versmall"
+      data-scrollax="properties: { translateY: '-350px' }"
+    ></div>
   </div>
 </section>
 
@@ -833,21 +978,20 @@
  -->
 <app-join-us></app-join-us>
 
-
 <section>
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-10">
-    <div class="topBlueHead">
-      <p class="spanHead">Digital Tools & Services</p>
-    </div>
-    <div class="sectionTitle">
-      <p>Our Make-Over Brands</p>
-    </div>
-    <div class="miniStatement">
-      <p>Collaboration Makes Us Better Serve You </p>
-    </div>
-  </div>
+        <div class="topBlueHead">
+          <p class="spanHead">Digital Tools & Services</p>
+        </div>
+        <div class="sectionTitle">
+          <p>Our Make-Over Brands</p>
+        </div>
+        <div class="miniStatement">
+          <p>Collaboration Makes Us Better Serve You</p>
+        </div>
+      </div>
       <div class="col-12 col-lg-2">
         <div class="endButtons-ac">
           <div class="left-ac listing-carousel-button-testi-next">
@@ -865,136 +1009,251 @@
         <div class="swiper-container">
           <div class="swiper-wrapper lightgallery">
             <div class="swiper-slide">
-    <div class="row">
-      <div class="col-12 col-lg-4 ">
-        <div class="fullpercent">
-          <div class="repeatedBlock">
-            <div class="top-test">
-              <div class="imageHolder-test">
-                <img style="width: 100%;height: auto;  border-radius: 50%;" src="assets/logo.png">
+              <div class="row">
+                <div class="col-12 col-lg-4">
+                  <div class="fullpercent">
+                    <div class="repeatedBlock">
+                      <div class="top-test">
+                        <div class="imageHolder-test">
+                          <img
+                            style="
+                              width: 100%;
+                              height: auto;
+                              border-radius: 50%;
+                            "
+                            src="assets/logo.png"
+                          />
+                        </div>
+                        <div>
+                          <p
+                            class="emma"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Maps
+                          </p>
+                          <p
+                            class="post"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Google
+                          </p>
+                        </div>
+                      </div>
+                      <div class="describingPara">
+                        <p class="explanationPara" style="text-align: left">
+                          Used for location search that allows you to geolocate
+                          a specific point, give directions, and to see the
+                          appearance of a place at street level through Google
+                          Street View.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="fullpercent">
+                    <div class="repeatedBlock">
+                      <div class="top-test">
+                        <div class="imageHolder-test">
+                          <img
+                            style="
+                              width: 100%;
+                              height: auto;
+                              border-radius: 50%;
+                            "
+                            src="assets/logo.png"
+                          />
+                        </div>
+                        <div>
+                          <p
+                            class="emma"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Click to Call
+                          </p>
+                          <p
+                            class="post"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Exotel
+                          </p>
+                        </div>
+                      </div>
+                      <div class="describingPara">
+                        <p class="explanationPara" style="text-align: left">
+                          Used to Convert and retain customers quickly and
+                          easily by capturing your customers' interest and
+                          providing exceptional assistance with our
+                          click-to-call feature. Maximize process efficiency by
+                          enabling instant communication with customers.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="fullpercent">
+                    <div class="repeatedBlock">
+                      <div class="top-test">
+                        <div class="imageHolder-test">
+                          <img
+                            style="
+                              width: 100%;
+                              height: auto;
+                              border-radius: 50%;
+                            "
+                            src="assets/logo.png"
+                          />
+                        </div>
+                        <div>
+                          <p
+                            class="emma"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Chat
+                          </p>
+                          <p
+                            class="post"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Comet-chat
+                          </p>
+                        </div>
+                      </div>
+                      <div class="describingPara">
+                        <p class="explanationPara" style="text-align: left">
+                          Text, Voice, Video chat - 1-on-1 and group text chat
+                          with your profiles with all the bells and whistles
+                          like read receipts, media sharing and more. Activate
+                          dozens of ready-to-use extensions from user engagement
+                          to email notifications
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                <p class="emma" style="text-align: left;padding-left: 10px">Maps
-
-                </p>
-                <p class="post" style="text-align: left;padding-left: 10px"> Google</p>
-              </div>
-            </div>
-            <div class="describingPara">
-              <p class="explanationPara" style="text-align: left">Used for location search that allows you to geolocate a specific point,
-                give directions, and to see the appearance of a place at street level through Google Street View.</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4 ">
-        <div class="fullpercent">
-          <div class="repeatedBlock">
-            <div class="top-test">
-              <div class="imageHolder-test">
-                <img style="width: 100%;height: auto;  border-radius: 50%;" src="assets/logo.png">
-              </div>
-              <div>
-                <p class="emma" style="text-align: left;padding-left: 10px">Click to Call
-
-                </p>
-                <p class="post" style="text-align: left;padding-left: 10px"> Exotel </p>
-              </div>
-            </div>
-            <div class="describingPara">
-              <p class="explanationPara" style="text-align: left">Used to Convert and retain customers quickly and easily by capturing your customers' interest and providing
-                exceptional assistance with our click-to-call feature. Maximize process efficiency by enabling instant communication with customers.</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4 ">
-        <div class="fullpercent">
-          <div class="repeatedBlock">
-            <div class="top-test">
-              <div class="imageHolder-test">
-                <img style="width: 100%;height: auto;  border-radius: 50%;" src="assets/logo.png">
-              </div>
-              <div>
-                <p class="emma" style="text-align: left;padding-left: 10px">Chat
-
-                </p>
-                <p class="post" style="text-align: left;padding-left: 10px"> Comet-chat</p>
-              </div>
-            </div>
-            <div class="describingPara">
-              <p class="explanationPara" style="text-align: left"> Text, Voice, Video chat - 1-on-1 and group text chat with your profiles with all the bells and whistles like read receipts, media sharing and more. Activate dozens of ready-to-use extensions from user engagement to email notifications</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-
             </div>
             <div class="swiper-slide">
               <div class="row">
-                <div class="col-12 col-lg-4 ">
+                <div class="col-12 col-lg-4">
                   <div class="fullpercent">
                     <div class="repeatedBlock">
                       <div class="top-test">
                         <div class="imageHolder-test">
-                          <img style="width: 100%;height: auto;  border-radius: 50%;" src="assets/logo.png">
+                          <img
+                            style="
+                              width: 100%;
+                              height: auto;
+                              border-radius: 50%;
+                            "
+                            src="assets/logo.png"
+                          />
                         </div>
                         <div>
-                          <p class="emma" style="text-align: left;padding-left: 10px">Maps
-
+                          <p
+                            class="emma"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Maps
                           </p>
-                          <p class="post" style="text-align: left;padding-left: 10px"> Google</p>
+                          <p
+                            class="post"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Google
+                          </p>
                         </div>
                       </div>
                       <div class="describingPara">
-                        <p class="explanationPara" style="text-align: left">Used for location search that allows you to geolocate a specific point,
-                          give directions, and to see the appearance of a place at street level through Google Street View.</p>
+                        <p class="explanationPara" style="text-align: left">
+                          Used for location search that allows you to geolocate
+                          a specific point, give directions, and to see the
+                          appearance of a place at street level through Google
+                          Street View.
+                        </p>
                       </div>
-
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 ">
+                <div class="col-12 col-lg-4">
                   <div class="fullpercent">
                     <div class="repeatedBlock">
                       <div class="top-test">
                         <div class="imageHolder-test">
-                          <img style="width: 100%;height: auto;  border-radius: 50%;" src="assets/logo.png">
+                          <img
+                            style="
+                              width: 100%;
+                              height: auto;
+                              border-radius: 50%;
+                            "
+                            src="assets/logo.png"
+                          />
                         </div>
                         <div>
-                          <p class="emma" style="text-align: left;padding-left: 10px">Click to Call
-
+                          <p
+                            class="emma"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Click to Call
                           </p>
-                          <p class="post" style="text-align: left;padding-left: 10px"> Exotel </p>
+                          <p
+                            class="post"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Exotel
+                          </p>
                         </div>
                       </div>
                       <div class="describingPara">
-                        <p class="explanationPara" style="text-align: left">Used to Convert and retain customers quickly and easily by capturing your customers' interest and providing
-                          exceptional assistance with our click-to-call feature. Maximize process efficiency by enabling instant communication with customers.</p>
+                        <p class="explanationPara" style="text-align: left">
+                          Used to Convert and retain customers quickly and
+                          easily by capturing your customers' interest and
+                          providing exceptional assistance with our
+                          click-to-call feature. Maximize process efficiency by
+                          enabling instant communication with customers.
+                        </p>
                       </div>
-
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 ">
+                <div class="col-12 col-lg-4">
                   <div class="fullpercent">
                     <div class="repeatedBlock">
                       <div class="top-test">
                         <div class="imageHolder-test">
-                          <img style="width: 100%;height: auto;  border-radius: 50%;" src="assets/logo.png">
+                          <img
+                            style="
+                              width: 100%;
+                              height: auto;
+                              border-radius: 50%;
+                            "
+                            src="assets/logo.png"
+                          />
                         </div>
                         <div>
-                          <p class="emma" style="text-align: left;padding-left: 10px">Chat
-
+                          <p
+                            class="emma"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Chat
                           </p>
-                          <p class="post" style="text-align: left;padding-left: 10px"> Comet-chat</p>
+                          <p
+                            class="post"
+                            style="text-align: left; padding-left: 10px"
+                          >
+                            Comet-chat
+                          </p>
                         </div>
                       </div>
                       <div class="describingPara">
-                        <p class="explanationPara" style="text-align: left"> Text, Voice, Video chat - 1-on-1 and group text chat with your profiles with all the bells and whistles like read receipts, media sharing and more. Activate dozens of ready-to-use extensions from user engagement to email notifications</p>
+                        <p class="explanationPara" style="text-align: left">
+                          Text, Voice, Video chat - 1-on-1 and group text chat
+                          with your profiles with all the bells and whistles
+                          like read receipts, media sharing and more. Activate
+                          dozens of ready-to-use extensions from user engagement
+                          to email notifications
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1015,25 +1274,39 @@
         <div class="box-content">
           <div class="question-heading">Do You Have Any Questions ?</div>
           <div class="question-content">
-            Looking for more information or want to join? Submit your information and Ornda Representative will follow
-            up with you
-            as soon as possible
+            Looking for more information or want to join? Submit your
+            information and Ornda Representative will follow up with you as soon
+            as possible
           </div>
         </div>
         <div class="question-button">
           <div class="elementor-widget-wrap elementor-element-populated">
             <div
               class="elementor-element elementor-element-fd74a8a elementor-align-right elementor-align-center elementor-widget elementor-widget-rt-button"
-              data-id="fd74a8a" data-element_type="widget" data-widget_type="rt-button.default">
+              data-id="fd74a8a"
+              data-element_type="widget"
+              data-widget_type="rt-button.default"
+            >
               <div class="elementor-widget-container">
                 <div class="btn-wrap btn-v2">
                   <a href="#" class="item-btn">
-                    <span style="letter-spacing: 0.8px" class="btn__text">CONTACT US</span>
+                    <span style="letter-spacing: 0.8px" class="btn__text"
+                      >CONTACT US</span
+                    >
                     <span class="btn__icon">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
                           d="M1.25 10C1.25 12.3206 2.17187 14.5462 3.81282 16.1872C5.45376 17.8281 7.67936 18.75 10 18.75C12.3206 18.75 14.5462 17.8281 16.1872 16.1872C17.8281 14.5462 18.75 12.3206 18.75 10C18.75 7.67936 17.8281 5.45376 16.1872 3.81282C14.5462 2.17187 12.3206 1.25 10 1.25C7.67936 1.25 5.45376 2.17187 3.81282 3.81282C2.17187 5.45376 1.25 7.67936 1.25 10ZM20 10C20 12.6522 18.9464 15.1957 17.0711 17.0711C15.1957 18.9464 12.6522 20 10 20C7.34784 20 4.8043 18.9464 2.92893 17.0711C1.05357 15.1957 0 12.6522 0 10C0 7.34784 1.05357 4.8043 2.92893 2.92893C4.8043 1.05357 7.34784 0 10 0C12.6522 0 15.1957 1.05357 17.0711 2.92893C18.9464 4.8043 20 7.34784 20 10ZM5.625 9.375C5.45924 9.375 5.30027 9.44085 5.18306 9.55806C5.06585 9.67527 5 9.83424 5 10C5 10.1658 5.06585 10.3247 5.18306 10.4419C5.30027 10.5592 5.45924 10.625 5.625 10.625H12.8663L10.1825 13.3075C10.1244 13.3656 10.0783 13.4346 10.0468 13.5105C10.0154 13.5864 9.99921 13.6678 9.99921 13.75C9.99921 13.8322 10.0154 13.9136 10.0468 13.9895C10.0783 14.0654 10.1244 14.1344 10.1825 14.1925C10.2406 14.2506 10.3096 14.2967 10.3855 14.3282C10.4614 14.3596 10.5428 14.3758 10.625 14.3758C10.7072 14.3758 10.7886 14.3596 10.8645 14.3282C10.9404 14.2967 11.0094 14.2506 11.0675 14.1925L14.8175 10.4425C14.8757 10.3844 14.9219 10.3155 14.9534 10.2395C14.9849 10.1636 15.0011 10.0822 15.0011 10C15.0011 9.91779 14.9849 9.83639 14.9534 9.76046C14.9219 9.68453 14.8757 9.61556 14.8175 9.5575L11.0675 5.8075C11.0094 5.74939 10.9404 5.70329 10.8645 5.67185C10.7886 5.6404 10.7072 5.62421 10.625 5.62421C10.5428 5.62421 10.4614 5.6404 10.3855 5.67185C10.3096 5.70329 10.2406 5.74939 10.1825 5.8075C10.1244 5.86561 10.0783 5.9346 10.0468 6.01052C10.0154 6.08644 9.99921 6.16782 9.99921 6.25C9.99921 6.33218 10.0154 6.41356 10.0468 6.48948C10.0783 6.5654 10.1244 6.63439 10.1825 6.6925L12.8663 9.375H5.625Z"
-                          fill="white"></path>
+                          fill="white"
+                        ></path>
                       </svg>
                     </span>
                   </a>
@@ -1075,13 +1348,20 @@
             <div class="testi-item fl-wrap">
               <div class="testi-avatar">
                 <img src="assets/img/5.jpg" alt="" />
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                >
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
                 </div>
               </div>
               <div class="testimonilas-text fl-wrap">
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                ></div>
                 <p>
                   "Vestibulum orci felis, ullamcorper non condimentum non,
                   ultrices ac nunc. Mauris non ligula suscipit, vulputate mi
@@ -1102,13 +1382,20 @@
             <div class="testi-item fl-wrap">
               <div class="testi-avatar">
                 <img src="assets/img/5.jpg" alt="" />
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                >
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
                 </div>
               </div>
               <div class="testimonilas-text fl-wrap">
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                ></div>
                 <p>
                   "Vestibulum orci felis, ullamcorper non condimentum non,
                   ultrices ac nunc. Mauris non ligula suscipit, vulputate mi
@@ -1129,13 +1416,20 @@
             <div class="testi-item fl-wrap">
               <div class="testi-avatar">
                 <img src="assets/img/5.jpg" alt="" />
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                >
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
                 </div>
               </div>
               <div class="testimonilas-text fl-wrap">
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                ></div>
                 <p>
                   "Vestibulum orci felis, ullamcorper non condimentum non,
                   ultrices ac nunc. Mauris non ligula suscipit, vulputate mi
@@ -1156,13 +1450,20 @@
             <div class="testi-item fl-wrap">
               <div class="testi-avatar">
                 <img src="assets/img/5.jpg" alt="" />
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                >
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
                 </div>
               </div>
               <div class="testimonilas-text fl-wrap">
-                <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                <div
+                  class="listing-rating card-popup-rainingvis"
+                  data-starrating2="5"
+                ></div>
                 <p>
                   "Vestibulum orci felis, ullamcorper non condimentum non,
                   ultrices ac nunc. Mauris non ligula suscipit, vulputate mi
@@ -1185,10 +1486,16 @@
   </div>
   <div class="waveWrapper waveAnimation mt-5">
     <div class="waveWrapperInner bgMiddle">
-      <div class="wave-bg-anim waveMiddle" style="background-image: url('assets/wave-top.png')"></div>
+      <div
+        class="wave-bg-anim waveMiddle"
+        style="background-image: url('assets/wave-top.png')"
+      ></div>
     </div>
     <div class="waveWrapperInner bgBottom">
-      <div class="wave-bg-anim waveBottom" style="background-image: url('assets/wave-top.png')"></div>
+      <div
+        class="wave-bg-anim waveBottom"
+        style="background-image: url('assets/wave-top.png')"
+      ></div>
     </div>
   </div>
 </section>
@@ -1203,32 +1510,44 @@
           <div class="swiper-wrapper">
             <!--client-item-->
             <div class="swiper-slide">
-              <a href="#" class="client-item"><img src="/assets/images/clients/1.png" alt="" /></a>
+              <a href="#" class="client-item"
+                ><img src="/assets/images/clients/1.png" alt=""
+              /></a>
             </div>
             <!--client-item end-->
             <!--client-item-->
             <div class="swiper-slide">
-              <a href="#" class="client-item"><img src="/assets/images/clients/1.png" alt="" /></a>
+              <a href="#" class="client-item"
+                ><img src="/assets/images/clients/1.png" alt=""
+              /></a>
             </div>
             <!--client-item end-->
             <!--client-item-->
             <div class="swiper-slide">
-              <a href="#" class="client-item"><img src="/assets/images/clients/1.png" alt="" /></a>
+              <a href="#" class="client-item"
+                ><img src="/assets/images/clients/1.png" alt=""
+              /></a>
             </div>
             <!--client-item end-->
             <!--client-item-->
             <div class="swiper-slide">
-              <a href="#" class="client-item"><img src="/assets/images/clients/1.png" alt="" /></a>
+              <a href="#" class="client-item"
+                ><img src="/assets/images/clients/1.png" alt=""
+              /></a>
             </div>
             <!--client-item end-->
             <!--client-item-->
             <div class="swiper-slide">
-              <a href="#" class="client-item"><img src="/assets/images/clients/1.png" alt="" /></a>
+              <a href="#" class="client-item"
+                ><img src="/assets/images/clients/1.png" alt=""
+              /></a>
             </div>
             <!--client-item end-->
             <!--client-item-->
             <div class="swiper-slide">
-              <a href="#" class="client-item"><img src="/assets/images/clients/1.png" alt="" /></a>
+              <a href="#" class="client-item"
+                ><img src="/assets/images/clients/1.png" alt=""
+              /></a>
             </div>
             <!--client-item end-->
           </div>
@@ -1253,9 +1572,19 @@
           <div class="subscribe-widget">
             <div class="subcribe-form">
               <form id="subscribe">
-                <input class="enteremail fl-wrap" name="email" id="subscribe-email" placeholder="Enter Your Email"
-                  spellcheck="false" type="text" />
-                <button type="submit" id="subscribe-button" class="subscribe-button">
+                <input
+                  class="enteremail fl-wrap"
+                  name="email"
+                  id="subscribe-email"
+                  placeholder="Enter Your Email"
+                  spellcheck="false"
+                  type="text"
+                />
+                <button
+                  type="submit"
+                  id="subscribe-button"
+                  class="subscribe-button"
+                >
                   <i class="fal fa-envelope"></i>
                 </button>
                 <label for="subscribe-email" class="subscribe-message"></label>
@@ -1279,9 +1608,19 @@
           <div class="subscribe-widget">
             <div class="subcribe-form">
               <form id="subscribe">
-                <input class="enteremail fl-wrap" name="email" id="subscribe-email" placeholder="Enter Your Email"
-                  spellcheck="false" type="text" />
-                <button type="submit" id="subscribe-button" class="subscribe-button">
+                <input
+                  class="enteremail fl-wrap"
+                  name="email"
+                  id="subscribe-email"
+                  placeholder="Enter Your Email"
+                  spellcheck="false"
+                  type="text"
+                />
+                <button
+                  type="submit"
+                  id="subscribe-button"
+                  class="subscribe-button"
+                >
                   <i class="fal fa-envelope"></i>
                 </button>
                 <label for="subscribe-email" class="subscribe-message"></label>
@@ -1311,33 +1650,45 @@
               </p>
               <ul class="footer-contacts fl-wrap no-list-style">
                 <li>
-                  <span><i class="fal fa-envelope"></i> Mail :</span><a href="#" target="_blank">contactus@ornda.com</a>
+                  <span><i class="fal fa-envelope"></i> Mail :</span
+                  ><a href="#" target="_blank">contactus@ornda.com</a>
                 </li>
                 <li>
-                  <span><i class="fal fa-map-marker"></i> Adress :</span><a href="#" target="_blank">Yeshwanthpur,
-                    Bangalore 560022</a>
+                  <span><i class="fal fa-map-marker"></i> Adress :</span
+                  ><a href="#" target="_blank"
+                    >Yeshwanthpur, Bangalore 560022</a
+                  >
                 </li>
                 <li>
-                  <span><i class="fal fa-phone"></i> Phone :</span><a href="#">+91 9845891221</a>
+                  <span><i class="fal fa-phone"></i> Phone :</span
+                  ><a href="#">+91 9845891221</a>
                 </li>
               </ul>
               <div class="footer-social">
                 <span>Find us on: </span>
                 <ul class="no-list-style">
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-facebook"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
                   </li>
                   <li>
                     <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-whatsapp"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -1377,7 +1728,9 @@
                   </div>
                 </li>
               </ul> -->
-              <a href="blog.html" class="footer-link">View all <i class="fal fa-long-arrow-right"></i></a>
+              <a href="blog.html" class="footer-link"
+                >View all <i class="fal fa-long-arrow-right"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -1414,7 +1767,9 @@
                   </div>
                 </li>
               </ul> -->
-              <a href="blog.html" class="footer-link">View all <i class="fal fa-long-arrow-right"></i></a>
+              <a href="blog.html" class="footer-link"
+                >View all <i class="fal fa-long-arrow-right"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -1448,33 +1803,45 @@
               </p>
               <ul class="footer-contacts fl-wrap no-list-style">
                 <li>
-                  <span><i class="fal fa-envelope"></i> Mail :</span><a href="#" target="_blank">contactus@ornda.com</a>
+                  <span><i class="fal fa-envelope"></i> Mail :</span
+                  ><a href="#" target="_blank">contactus@ornda.com</a>
                 </li>
                 <li>
-                  <span><i class="fal fa-map-marker"></i> Adress :</span><a href="#" target="_blank">Yeshwanthpur,
-                    Bangalore 560022</a>
+                  <span><i class="fal fa-map-marker"></i> Adress :</span
+                  ><a href="#" target="_blank"
+                    >Yeshwanthpur, Bangalore 560022</a
+                  >
                 </li>
                 <li>
-                  <span><i class="fal fa-phone"></i> Phone :</span><a href="#">+91 9845891221</a>
+                  <span><i class="fal fa-phone"></i> Phone :</span
+                  ><a href="#">+91 9845891221</a>
                 </li>
               </ul>
               <div class="footer-social">
                 <span>Find us on: </span>
                 <ul class="no-list-style">
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-facebook"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
                   </li>
                   <li>
                     <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
                   </li>
                   <li>
-                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank"
+                      ><i class="fab fa-whatsapp"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -1489,29 +1856,42 @@
             <div class="footer-widget-posts fl-wrap">
               <ul class="no-list-style">
                 <li class="clearfix">
-                  <a href="#" class="widget-posts-img"><img src="images/all/1.jpg" class="respimg" alt="" /></a>
-                  <a href="#" class="widget-posts-img"><img src="images/all/1.jpg" class="respimg" alt="" /></a>
-                  <a href="#" class="widget-posts-img"><img src="images/all/1.jpg" class="respimg" alt="" /></a>
-
+                  <a href="#" class="widget-posts-img"
+                    ><img src="images/all/1.jpg" class="respimg" alt=""
+                  /></a>
+                  <a href="#" class="widget-posts-img"
+                    ><img src="images/all/1.jpg" class="respimg" alt=""
+                  /></a>
+                  <a href="#" class="widget-posts-img"
+                    ><img src="images/all/1.jpg" class="respimg" alt=""
+                  /></a>
                 </li>
                 <li class="clearfix">
-                  <a href="#" class="widget-posts-img"><img src="images/all/1.jpg" class="respimg" alt="" /></a>
+                  <a href="#" class="widget-posts-img"
+                    ><img src="images/all/1.jpg" class="respimg" alt=""
+                  /></a>
                   <div class="widget-posts-descr">
                     <a href="#" title=""> In hac habitasse platea</a>
-                    <span class="widget-posts-date"><i class="fal fa-calendar"></i> 7 Mar 18.21
+                    <span class="widget-posts-date"
+                      ><i class="fal fa-calendar"></i> 7 Mar 18.21
                     </span>
                   </div>
                 </li>
                 <li class="clearfix">
-                  <a href="#" class="widget-posts-img"><img src="images/all/1.jpg" class="respimg" alt="" /></a>
+                  <a href="#" class="widget-posts-img"
+                    ><img src="images/all/1.jpg" class="respimg" alt=""
+                  /></a>
                   <div class="widget-posts-descr">
                     <a href="#" title="">Tortor tempor in porta</a>
-                    <span class="widget-posts-date"><i class="fal fa-calendar"></i> 7 Mar 16.42
+                    <span class="widget-posts-date"
+                      ><i class="fal fa-calendar"></i> 7 Mar 16.42
                     </span>
                   </div>
                 </li>
               </ul>
-              <a href="blog.html" class="footer-link">View all <i class="fal fa-long-arrow-right"></i></a>
+              <a href="blog.html" class="footer-link"
+                >View all <i class="fal fa-long-arrow-right"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -1523,10 +1903,14 @@
             <ul class="footer-list fl-wrap">
               <li><a href="about.html">Loading</a></li>
             </ul>
-            <a href="blog.html" class="footer-link">Read all <i class="fal fa-long-arrow-right"></i></a>
-            <a href="#" class="down-btn color3-bg fl-wrap"><i class="fab fa-apple"></i> Apple Store
+            <a href="blog.html" class="footer-link"
+              >Read all <i class="fal fa-long-arrow-right"></i
+            ></a>
+            <a href="#" class="down-btn color3-bg fl-wrap"
+              ><i class="fab fa-apple"></i> Apple Store
             </a>
-            <a href="#" class="down-btn color3-bg fl-wrap"><i class="fab fa-android"></i> Google Play
+            <a href="#" class="down-btn color3-bg fl-wrap"
+              ><i class="fab fa-android"></i> Google Play
             </a>
           </div>
         </div>
@@ -1552,8 +1936,9 @@
         <div class="copyright">&#169; Ornda ® 2023 . All rights reserved.</div>
         <div class="lang-wrap">
           <div class="show-lang">
-            <span><i class="fal fa-globe-europe"></i><strong>India</strong></span><i
-              class="fa fa-caret-down arrlan"></i>
+            <span
+              ><i class="fal fa-globe-europe"></i><strong>India</strong></span
+            ><i class="fa fa-caret-down arrlan"></i>
           </div>
           <ul class="lang-tooltip lang-action no-list-style">
             <li>
