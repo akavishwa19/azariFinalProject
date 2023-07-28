@@ -63,10 +63,11 @@
     padding-bottom: 35rem;
   }
 
-  .form-movement{
+  .form-movement {
     border: none;
   }
-  .circular{
+
+  .circular {
     display: none;
   }
 }
@@ -138,7 +139,7 @@
   color: #FFFFFF;
   font-size: 19px;
   padding: 10px 10px 10px 0px;
-
+  text-align: left;
 
   display: flex;
   justify-content: flex-start;
@@ -172,9 +173,11 @@ button {
   font-size: 1.5rem;
 
 }
+
 .ss-slider-cont-prev {
-  left: -20px!important;
+  left: -20px !important;
 }
+
 .ss-slider-cont {
-  top:60%;
+  top: 60%;
 }
