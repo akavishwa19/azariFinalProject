@@ -93,6 +93,7 @@
   display: inline-flex;
   align-items: center;
   background-color: #2854a1;
+  width: 120%;
 }
 
 .question-button {
@@ -619,91 +620,93 @@ figcaption img {
 .mt-5 {
   margin-top: 50px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-.spanHead{
+
+.spanHead {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 14px;
   color: #FFFFFF;
   text-align: center;
 }
-.describingPara{
-  padding-top:10%;
+
+.describingPara {
+  padding-top: 10%;
 }
-.topBlueHead{
+
+.topBlueHead {
   padding: 8px 15px;
   width: 18%;
   background-color: #537cd9;
 }
-.sectionTitle{
+
+.sectionTitle {
   font-size: 36px;
   text-align: left;
   padding: 15px 0 8px 0;
 }
-.miniStatement{
+
+.miniStatement {
   font-size: 18px;
   text-align: left;
 }
-.fullpercent{
+
+.fullpercent {
   width: 100%;
   display: flex;
 }
-.repeatedBlock{
+
+.repeatedBlock {
   width: 90%;
   height: 40vh;
- border: 1px solid #f2f4f8;
+  border: 1px solid #f2f4f8;
   margin: auto;
   padding: 2rem;
   margin-top: 70px !important;
 }
-.imageHolder-test{
+
+.imageHolder-test {
   width: 60px;
   height: auto;
 
 }
-.top-test{
+
+.top-test {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 15px 0;
 }
-.emma{
-font-size: 16px;
+
+.emma {
+  font-size: 16px;
   font-weight: 800;
   font-family: 'Red Hat Display', sans-serif;
 }
-.post{
+
+.post {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Red Hat Display', sans-serif;
 }
-.explanationPara{
+
+.explanationPara {
   font-size: 16px;
   font-weight: 400;
   font-family: 'Lexend Deca', sans-serif;
   line-height: 29px;
   color: #73818c;
 }
-.repeatedBlock:hover{
+
+.repeatedBlock:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 7px 7px 15px -7px;
 }
+
 .loading {
   color: white;
   text-align: left;
   padding-bottom: 38%;
-}
-
-.main-search-input-item .nice-select {
-  color: #666;
-  font-size: 12px;
-  font-weight: 100;
-  float: left;
-  width: 160px !important;
-  border: none;
-  height: 50px;
-  z-index: 100;
-  background: #fff;
-  line-height: 50px;
 }
 
 .fl-wwrap {
@@ -715,15 +718,13 @@ font-size: 16px;
   left: 30%;
 }
 
+.nice-select.open .list {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1) translateY(0);
+  width: 150%;
+}
 
-
-.nice-select .list {
-  margin-top: 5px;
-  top: 100%;
-  border-top: 0;
-  border-radius: 0 0 5px 5px;
-  max-height: 210px;
-  overflow-y: scroll;
-  padding: 52px 0 0;
-  width:150px;
+.nice-select .nice-select-search {
+  width: 100% !important;
 }

@@ -11,8 +11,8 @@
 
           <div class="single-slider-wrap">
             <div class="single-slider fl-wrap">
-              <div style="width:100%" class="swiper-container">
-                <div class="swiper-wrapper lightgallery">
+              <div style="width:100%;height: 350px !important;" class="swiper-container">
+                <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="bottom-left">
 
@@ -88,6 +88,7 @@
                         <div class="logoHolder-find">
                           <img style="width: 43px;padding-bottom: 5px;" src="assets/cafe.png"><br>
                           <span class="spanTag">Followers</span>
+                          <span class="spanTag"> </span>
                         </div>
                       </div>
                       <div (click)="dashboard()" class="iconBox">
@@ -128,7 +129,7 @@
           <div class="form-list">
             <div class="form-contents">
               <div class="inner-form">
-                <div class="form-heading">Search ListGo and Beyond</div>
+                <div class="form-heading">{{title}}</div>
                 <div class="form-innercontent">{{x}}</div>
                 <div class="form-submit">
                   <button>Read More</button>
