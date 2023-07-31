@@ -28,8 +28,6 @@ b {
   border-bottom: 1px solid rgba(24, 24, 24, 0.1);
 }
 
-
-
 // .heading::after {
 //   border: 1px solid #f66542;
 //   width: 70px;
@@ -64,13 +62,11 @@ b {
 }
 
 .iconTabs {
-  width: 50%;
   padding-top: 50px;
 }
 
 .mainIcons {
   display: flex;
-  margin: 10px 20px;
 }
 
 .size {
@@ -79,7 +75,7 @@ b {
   padding-right: 20px;
 }
 
-.size:hover{
+.size:hover {
   color: var(--azure) !important;
 }
 

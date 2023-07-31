@@ -905,7 +905,6 @@ nav li ul a:before , nav li ul a:after {
 }
 .header-search-button {
 	position:absolute;
-	right:200px;
 	height:50px;
 	top:0;
 	line-height:50px;
@@ -1555,7 +1554,6 @@ section.gray-section .section-separator {
 	font-size:12px;
 	font-weight:100;
 	float:left;
-	width:170%;
 	border:none;
     height: 50px;
 	z-index:100;
@@ -9069,8 +9067,8 @@ section.parallax-section {
     padding: 0 15px;
 }
 .logo-holder {
-	top:26px;
-    height: 25px;
+	top:5px;
+    height: 55px;
 }
 .header-modal {
     width: 340px;
@@ -9216,7 +9214,6 @@ section.parallax-section {
 	float:right;
 }
 .logo-holder {
-    top: 31px;
     height: 20px;
 }
 

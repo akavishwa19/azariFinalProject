@@ -1,16 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
 @import "~@ng-select/ng-select/themes/default.theme.css";
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
 :root {
-  --royal: #101D6B;
-  --yale: #0E4D92;
-  --azure: #8080FF;
+  --royal: #101d6b;
+  --yale: #0e4d92;
+  --azure: #8080ff;
 }
 
 .sliding-menu {
@@ -213,6 +213,14 @@
 }
 
 @media screen and (max-width: 700px) {
+  .images-collage-title {
+    right: 1px !important;
+  }
+
+  .form-list {
+    width: 100% !important;
+  }
+
   .firstText {
     font-size: 30px;
     color: #fc3c3c;
@@ -1053,7 +1061,7 @@ section- {
 .dashboard-message-time i,
 .pass-input-wrap span,
 .fuzone .fu-text i,
-.radio input[type="radio"]:checked+span:before,
+.radio input[type="radio"]:checked + span:before,
 .booking-list-message-text h4 span,
 .dashboard-message-text h4 a:hover,
 .chat-contacts-item .chat-contacts-item-text span,
@@ -1212,7 +1220,7 @@ div.datedropper.primary .pick-submit,
 .process-item_time-line:after {
   background: #5ecfb1;
 }
-green-bg:hover{
+green-bg:hover {
   background-color: var(--azure) !important;
 }
 .clear-wishlist:hover,
@@ -1318,14 +1326,14 @@ green-bg:hover{
 
 /* Importing Bootstrap SCSS file. */
 
-.tab-content>.active {
+.tab-content > .active {
   display: block;
   background: white !important;
   padding: 20px !important;
   text-align: left !important;
 }
 
-.nav>.active {
+.nav > .active {
   border-right: 10px solid #2e3f6e;
   border-radius: 2px;
 }
@@ -1338,4 +1346,8 @@ green-bg:hover{
 .menusb a,
 .subscribe-widget {
   float: left !important;
+}
+
+.mt-4 {
+  margin-top: 40px;
 }

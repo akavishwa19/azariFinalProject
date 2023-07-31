@@ -307,12 +307,15 @@ function initTowhub() {
       },
       breakpoints: {
         1064: {
-          slidesPerView: 2,
+            slidesPerView: 1,
         },
         640: {
-          slidesPerView: 1,
+            slidesPerView: 1,
         },
+        320: {
+          slidesPerView: 1,
       },
+    }
     });
   }
 
