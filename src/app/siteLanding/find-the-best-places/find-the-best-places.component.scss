@@ -149,20 +149,21 @@
   display: flex;
   justify-content: flex-start;
 }
-.form-submit{
+
+.form-submit {
   display: flex;
 }
 
 button {
   padding: 10px;
-  width: 100%;
+  width: 80%;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: rgb(66, 132, 252);
   color: #FFFFFF;
 }
 
-.form-contents {}
+
 
 .circular {
   display: flex;
@@ -189,7 +190,8 @@ button {
 .ss-slider-cont {
   top: 63%;
 }
-.inner-form{
+
+.inner-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
