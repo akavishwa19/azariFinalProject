@@ -10,18 +10,18 @@
 }
 .pin , .nice-select:after ,  .loader-inner  , .ed-btn     , blockquote , .main-register-holder .tabs-menu li.current , .filter-sidebar-header .tabs-menu li.current  , .header-search-input input:focus , .listsearch-input-wrap .tabs-menu li.current , .btn.border-btn {
 	border-color:#4DB7FE;
-} 
+}
 .color2-bg  , .list-widget-social li a:hover  , .accordion a.toggle.act-accordion , .banner-wdget-content a:hover , .inline-lsiw   .listsearch-input-wrap_contrl li.current a  , .cc-btn:hover     , .down-btn:hover   , .new-dashboard-item:hover  , .header-search-button:hover  , .lg-actions .lg-next, .lg-actions .lg-prev , .box-media-zoom:hover  , .main-search-button {
-    background: #384F95;
+    background: var(--royal);
 }
 .share-holder.hid-share .share-container  .share-icon:hover  {
 	color:#384F95;
 }
 .green-bg , div.datedropper.primary .pick-submit , .footer-bg-pin    , .gsd_open , .verified-badge    , .toggle-filter-btn.tsb_act  , .status.st_online span  , .slide-progress  , .reply-item , #progressbar li.active:last-child  span , .user-profile-menu li a span  , .infobox-status.open , .map-popup-location-category.shop-cat  , .process-item_time-line:after     {
-	background:#2e3f6e;
+	background:var(--royal);
 }
 .clear-wishlist:hover , .lang-tooltip li a:before , .opening-hours ul li.todaysDay span.opening-hours-time , .pricerange , .tags-stylwrap .tags-title i  , .faq-nav li a  i  , .tfp-det p a , .tfp-btn:before  , .green-bg_color  , .testi-link:hover {
-	color:#5ECFB1;
+	color:#5ECFB1; 
 }
 .orange-bg   {
 	background:#E9776D;
@@ -61,10 +61,10 @@
 }
 .green-gradient-bg {
     background: linear-gradient(to left, #5ECFB1, #47EEB0);
-} 
+}
 .blue-gradient-bg {
     background: linear-gradient(to top, #6DB6FD, #60B6FD);
-} 
+}
 /*--
 	gradient
 --*/

@@ -6,6 +6,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root {
+  --royal: #101D6B;
+  --yale: #0E4D92;
+  --azure: #8080FF;
+}
+
 .sliding-menu {
   height: 120px !important;
 }
@@ -1205,7 +1212,9 @@ div.datedropper.primary .pick-submit,
 .process-item_time-line:after {
   background: #5ecfb1;
 }
-
+green-bg:hover{
+  background-color: var(--azure) !important;
+}
 .clear-wishlist:hover,
 .lang-tooltip li a:before,
 .opening-hours ul li.todaysDay span.opening-hours-time,

@@ -522,7 +522,7 @@ figcaption img {
   height: 3px;
   content: "";
   position: absolute;
-  background-color: #ff3c48;
+  background-color: var(--yale);
 }
 
 .endButtons-ac {
@@ -535,9 +535,9 @@ figcaption img {
 .left-ac {
   width: 50px;
   height: 50px;
-  border: 1px solid #2854a1;
+  border: 1px solid var(--royal);
   display: flex;
-  color: #2854a1;
+  color: var(--royal);
   display: flex;
   border-radius: 5px;
 }
@@ -553,10 +553,10 @@ figcaption img {
   display: flex;
   width: 50px;
   height: 50px;
-  border: 1px solid #2854a1;
+  border: 1px solid var(--royal);
   display: flex;
   color: white;
-  background-color: #2854a1;
+  background-color: var(--royal);
 }
 
 .arrow-ac {
