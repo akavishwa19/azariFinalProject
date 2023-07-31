@@ -8,7 +8,7 @@
 }
 
 b {
-  color: #f66542;
+  color: var(--royal);
 }
 
 .joinImage {
@@ -74,9 +74,13 @@ b {
 }
 
 .size {
-  color: #f66542;
+  color: var(--royal);
   padding-top: 10px;
   padding-right: 20px;
+}
+
+.size:hover{
+  color: var(--azure) !important;
 }
 
 .firstName {

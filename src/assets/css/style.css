@@ -2412,13 +2412,13 @@ section.gray-section .section-separator {
 	overflow:hidden;
 }
 .main-footer {
-	background:#325096;
+  background: var(--yale) !important;
 	overflow:hidden;
 	z-index:6;
 }
 .sub-footer {
 	padding:18px 0;
-	background:#253966;
+	background:var(--royal);
 }
 .sub-footer .lang-wrap {
 	top:0;
@@ -8790,6 +8790,7 @@ section.hero-section {
 .footer-inner {
     padding: 30px 0 50px;
     overflow: hidden;
+
 }
 .footer-logo , .faq-nav , .footer-social  , .footer-link {
 	margin-bottom:20px;
