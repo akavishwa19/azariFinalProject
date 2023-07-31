@@ -221,6 +221,18 @@
     width: 100% !important;
   }
 
+  .listing-carousel-button.listing-carousel-button-next,
+  .listing-carousel-button.listing-carousel-button-next2 {
+    right: -3px !important;
+    padding-right: 20px;
+    border-radius: 60px 0 0 60px;
+  }
+  .listing-carousel-button.listing-carousel-button-next:hover,
+  .listing-carousel-button.listing-carousel-button-next2:hover {
+    right: -3px !important;
+    background: rgba(6, 27, 65, 0.4);
+  }
+
   .firstText {
     font-size: 30px;
     color: #fc3c3c;
