@@ -70,7 +70,7 @@
   top: 0;
   right: 0;
   z-index: -2;
-  background-color: #4DB7FE;
+  background-color: var(--azure);
   transition: all 0.3s ease;
 }
 
@@ -648,10 +648,10 @@
 hr {
   width: 70px;
   margin: auto;
-  color: #f66542;
-  background-color: #f66542;
+  color: var(--royal);
+  background-color: var(--royal);
   height: 3px !important;
-  border: 2px solid #f66542;
+  border: 2px solid var(--royal);
 }
 
 .main-text-ideas {
