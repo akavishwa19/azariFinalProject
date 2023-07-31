@@ -778,11 +778,17 @@ function initTowhub() {
     wllink = $(".show-header-modal"),
     mainheader = $(".main-header");
   function showSearch() {
+    console.log("Header Click");
     headSearch.addClass("vis-head-search").removeClass("vis-search");
     ssbut.find("span").text("Close");
     ssbut.find("i").addClass("vis-head-search-close");
     mainheader.addClass("vis-searchdec");
     hideWishlist();
+
+    $(document).on("click", "#herosection", function () {
+      console.log("click triggered");
+      hideSearch();
+    });
   }
   function hideSearch() {
     headSearch.removeClass("vis-head-search").addClass("vis-search");
